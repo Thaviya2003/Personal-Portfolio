@@ -1,4 +1,8 @@
 /* GLOBAL STYLES */
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --bg-color: #ecf0f3;
     --primary-blue: #019eff;
@@ -83,6 +87,12 @@ section {
     color: var(--primary-blue);
     font-weight: 600;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-resume:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
 }
 
 /* HERO SECTION */
