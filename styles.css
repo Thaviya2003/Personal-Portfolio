@@ -174,7 +174,7 @@ h1 {
     background: var(--bg-color);
     box-shadow: var(--shadow-light);
     border-radius: 20px;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
     padding: 10px;
 }
