@@ -212,7 +212,7 @@ nav a:hover {
 
 .btn-resume:hover {
     background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 30px rgba(138, 43, 226, 0.4), inset 0 0 15px rgba(255, 255, 255, 0.1); /* Glows purple on hover */
+    box-shadow: 0 4px 30px rgba(48, 229, 64, 0.5), inset 0 0 15px rgba(255, 255, 255, 0.1); /* Glows purple on hover */
     transform: translateY(-2px);
 }
 
@@ -267,9 +267,10 @@ nav a:hover {
 
     .text-left,
     .text-right {
-    text-align: center;
-    margin: 0; /* reset all desktop offsets */
-}
+        text-align: center;
+        margin: 0; /* reset all desktop offsets */
+    }
+
 
     .hero-image-container {
         height: 50vh;
