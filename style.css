@@ -265,8 +265,14 @@ nav a:hover {
         padding-bottom: 100px; /* Space for bottom icons */
     }
 
-    .text-left, .text-right {
+    .text-left  {
         text-align: center;
+        margin-left: -50px;
+    }
+
+    .text-right {
+        text-align: center;
+        margin-left: -50px;
     }
 
     .hero-image-container {
