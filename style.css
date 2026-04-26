@@ -265,15 +265,11 @@ nav a:hover {
         padding-bottom: 100px; /* Space for bottom icons */
     }
 
-    .text-left  {
-        text-align: center;
-        margin-left: -50px;
-    }
-
+    .text-left,
     .text-right {
-        text-align: center;
-        margin-left: -50px;
-    }
+    text-align: center;
+    margin: 0; /* reset all desktop offsets */
+}
 
     .hero-image-container {
         height: 50vh;
